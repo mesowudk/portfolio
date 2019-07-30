@@ -1,0 +1,40 @@
+
+$(function(){
+    $('.progressbar').LineProgressbar({
+               percentage:0
+       });
+   
+       $("#skill").on("mouseover",function(){
+         console.log(1);
+         $('#progressbar1').LineProgressbar({
+             percentage:80,
+             duration:2000
+         }); 
+         $('#progressbar2').LineProgressbar({
+             percentage:80,
+             duration:2000
+         });  
+         $('#progressbar3').LineProgressbar({
+             percentage:90,
+             duration:2000
+         }); 
+         $('#progressbar4').LineProgressbar({
+             percentage:80,
+             duration:2000
+         });  
+         $('#progressbar5').LineProgressbar({
+             percentage:50,
+             duration:2000
+         });  
+         $('#progressbar6').LineProgressbar({
+             percentage:50,
+             duration:2000
+         });  
+       });
+   
+       $("#skill").on("mouseleave",function(){
+         $('.progressbar').LineProgressbar({
+           percentage:0
+         });
+       });
+ });
