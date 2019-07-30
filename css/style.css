@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+
+header.masthead{
+  background:url(../images/design01.jpg) ;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.navi_font{color:rgb(87, 57, 253); padding-right:30px; padding-left:30px; 
+          font-family: 'Fira Code', monospace;
+          font-family: 'Josefin Sans', sans-serif; font-size:20px;}
+.navi_font:hover{color:rgb(87, 57, 253); text-decoration:none; font-weight:bolder;}
+
+.banner_font{color:white; font-family: 'Fira Code', monospace;
+  font-family: 'Josefin Sans', sans-serif; font-size:20px;}
+
+.bg_gray{background:#333;}
+.bg_gray:hover{color:white; background:#666}
+
+hr.divider{color:rgb(87, 57, 253); border-width:.1.5rem;}
+
+#progress {
+    padding:10px;
+    width:400px;
+    height:6px;
+    position:relative;
+    background:rgb(223, 221, 221);
+  }
+
+#portfolio{padding-top:150px;}
+
+.no-gutters{text-align:center; margin:10px;}
+
+.row{padding-top:100px;}
+
+.no-gutters{padding-top:20px;}
